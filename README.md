@@ -26,7 +26,6 @@ Once you've deployed and everything seems to be working, go ahead and test it ou
 
 This will query your heroku app and verify that it is returning the right response.
 
-
 ## Securing
 
 For most people, having the queue size and dynos on a publically available url is not a big deal. However if you want to secure it, just run:
@@ -46,3 +45,14 @@ Redeploy to Heroku and then run:
     rake heroscale:test
 
 to verify everything is still working
+
+## Installation (Sinatra)
+
+Just add Heroscale::Middleware to your config.ru
+
+TODO: more details
+
+## Installation (Rails 2)
+
+TODO: more details
+
