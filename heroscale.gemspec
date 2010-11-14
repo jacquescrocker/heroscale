@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
 
   s.authors = ["Jacques Crocker"]
   s.summary = "Autoscale your heroku app"
-  s.description = "This rack middleware that allows easy external querying of your heroku's app queue depth"
+  s.description = "Rack middleware that allows easy external querying of your heroku's app queue depth"
 
   s.email = "railsjedi@gmail.com"
   s.homepage = "http://github.com/railsjedi/heroscale"
