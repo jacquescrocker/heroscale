@@ -71,4 +71,11 @@ describe Heroscale::Middleware do
     end
   end
 
+  context "when DelayedJob is installed" do
+    it "should return the queue count"
+  end
+
+  context "when Resque is installed" do
+    it "should return the queue count"
+  end
 end
